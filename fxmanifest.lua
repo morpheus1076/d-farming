@@ -23,7 +23,6 @@ server_script {
   "config/config.lua",
   'locales/en.lua',
   'locales/de.lua',
-
   "@mysql-async/lib/MySQL.lua",
   "server/server.lua"
 }
@@ -35,3 +34,8 @@ escrow_ignore {
   'locales/en.lua',
   'locales/de.lua',
 }
+
+shared_script {
+	'@ox_lib/init.lua',
+	
+	}

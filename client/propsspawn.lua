@@ -12,6 +12,8 @@ Activ = {
     }
 }
 
+local myID = GetPlayerServerId(PlayerId())
+local addAmount = 5
 
 CreateThread(function()
     while true do
@@ -67,7 +69,15 @@ CreateThread(function()
                 if v.nearbyObject and IsPedOnFoot(playerPed) and v.nearbyCanInteract == true then
                     Sleep = 0
                     if not IsPickingUp then
-                        ShowHelpNotificaiton(v.farmlabel)
+                        lib.showTextUI('Drücke E zum sammeln', {
+                            position = "top-center",
+                            icon = 'hand',
+							iconColor = '#800080',
+							style = {
+								backgroundColor = '#000000',
+								color = '#ffffff'
+							}
+                        })
                     end
 
                     if IsControlJustReleased(0, 38) and not IsPickingUp then
@@ -75,7 +85,7 @@ CreateThread(function()
                         FarmProp(v)
                     end
                 else
-                    HideHelpNotificaiton()
+                    lib.hideTextUI()
                 end
             else
                 if v.radiusbllip ~= nil and v.showedradius == true then
@@ -102,6 +112,7 @@ function FarmProp(v)
         IsPickingUp = true
         TriggerServerEvent("d-farmingzone:server:prop:start", Source, v.requireditem, Activ.rewards.item,
             Activ.rewards.amount)
+		exports.Five_Level:AddPlayerXP(myID, addAmount)
     else
         Notify(_U('justjobcanfarm', v.joblabel, v.rang))
     end
@@ -184,8 +195,6 @@ function SpawnProps(v)
         while #v.spawnedprops <= v.propamount do
             Citizen.Wait(0)
             local Coords = GeneratePropCoords(v)
-
-            Wait(600)
 
             ESX.Game.SpawnLocalObject(v.prop, Coords, function(obj)
                 PlaceObjectOnGroundProperly(obj)

@@ -1,14 +1,4 @@
-ESX = nil
-
-function GetESX()
-  if Config.GetSharedObjectfunction == false then
-    TriggerEvent(Config.esxgetSharedObjectevent, function(obj) ESX = obj end)
-  else
-    ESX = exports["es_extended"]:getSharedObject()
-  end
-end
-
-GetESX()
+ESX = exports['es_extended']:getSharedObject()
 
 RegisterServerEvent("d-farmingzone:server:additem")
 AddEventHandler("d-farmingzone:server:additem", function(source, r)
@@ -19,6 +9,7 @@ AddEventHandler("d-farmingzone:server:additem", function(source, r)
   local xItem = xPlayer.getInventoryItem(item)
   local success = false
   local nospace = false
+
   if xItem ~= nil then
     if Config.ESXLegacy == true then
       if xPlayer.canCarryItem(item, amount) then
@@ -35,7 +26,7 @@ AddEventHandler("d-farmingzone:server:additem", function(source, r)
     end
 
     if success == true then
-      Notify(_source, _U('success', amount, xItem.label), 5000, "success")
+      --Notify(_source, _U('success', amount, xItem.label), 5000, "success")
       xPlayer.addInventoryItem(item, amount)
     elseif nospace == true then
       Notify(_source, _U('nospace'), 5000, "error")

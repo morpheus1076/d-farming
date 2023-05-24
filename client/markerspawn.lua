@@ -57,9 +57,25 @@ CreateThread(function()
 
                 if InMarker and IsPedOnFoot(playerPed) then
                     if not IsPickingUp then
-                        ShowHelpNotificaiton(v.farmlabel)
+                        lib.showTextUI('Drücke E zum sammeln', {
+                            position = "top-center",
+                            icon = 'hand',
+							iconColor = '#800080',
+							style = {
+								backgroundColor = '#000000',
+								color = '#ffffff'
+							}
+                        })
                     else
-                        ShowHelpNotificaiton("Cooldown")
+                        lib.showTextUI('Cooldown', {
+                            position = "top-center",
+                            icon = 'hand',
+							iconColor = '#800080',
+							style = {
+								backgroundColor = '#000000',
+								color = '#ffffff'
+							}
+                        })
                     end
 
                     if IsControlJustReleased(0, 38) and not IsPickingUp then
@@ -67,7 +83,7 @@ CreateThread(function()
                         FarmProp(v)
                     end
                 else
-                    HideHelpNotificaiton()
+                    lib.hideTextUI()
                 end
             else
                 if v.radiusbllip ~= nil and v.showedradius == true then
