@@ -45,7 +45,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -93,7 +93,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -141,7 +141,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -189,7 +189,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Sammeln",
+        farmlabel = "Drücke [E] zum Sammeln",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = nil,
@@ -237,7 +237,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -262,13 +262,13 @@ Config.PropSpots = {
         -- show radius on the map while in range
         showradius = true,
         -- Coords
-        pos = vector3(270, 6612, 30),
-        radius = 20.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+        pos = vector3(701.3304, 6470.2627, 30.2122),
+        radius = 17.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
 
         -- Prop
         prop = 'prop_plant_01a',
         -- How many props should spawn to mine
-        propamount = 10,
+        propamount = 6,
         distancebetweenprops = 5.0,
         delete = {
             delay = 100,
@@ -285,7 +285,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -311,12 +311,12 @@ Config.PropSpots = {
         showradius = true,
         -- Coords
         pos = vector3(642, 6475, 31),
-        radius = 20.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+        radius = 21.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
 
         -- Prop
         prop = 'h4_prop_bush_olndr_white_sml',
         -- How many props should spawn to mine
-        propamount = 10,
+        propamount = 30,
         distancebetweenprops = 5.0,
         delete = {
             delay = 100,
@@ -333,7 +333,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Farmen",
+        farmlabel = "Drücke [E] zum Farmen",
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
@@ -381,7 +381,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Sammeln",
+        farmlabel = "Drücke [E] zum Sammeln",
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
@@ -429,7 +429,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum pflücken.",
+        farmlabel = "Drücke [E] zum Pflücken.",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -477,7 +477,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Farmen",
+        farmlabel = "Drücke [E] zum Farmen",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -525,7 +525,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -573,7 +573,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Fällen",
+        farmlabel = "Drücke [E] zum Fällen",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "axt",
@@ -621,7 +621,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -669,7 +669,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -717,7 +717,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -765,7 +765,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -812,7 +812,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -860,7 +860,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -885,14 +885,14 @@ Config.PropSpots = {
         -- show radius on the map while in range
         showradius = true,
         -- Coords
-        pos = vector3(2526.6282, 4356.1396, 39.8598),
-        radius = 25.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+        pos = vector3(2097.5662, 5095.5015, 44.7885),
+        radius = 20.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
 
         -- Prop
         prop = 'prop_joshua_tree_01b',
         -- How many props should spawn to mine
         propamount = 10,
-        distancebetweenprops = 5.0,
+        distancebetweenprops = 4.0,
         delete = {
             delay = 100,
         },
@@ -908,7 +908,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -956,7 +956,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Ernten",
+        farmlabel = "Drücke [E] zum Ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -1004,7 +1004,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Sammeln",
+        farmlabel = "Drücke [E] zum Sammeln",
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
@@ -1052,7 +1052,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Sammeln",
+        farmlabel = "Drücke [E] zum Sammeln",
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
@@ -1100,7 +1100,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Sammeln",
+        farmlabel = "Drücke [E] zum Sammeln",
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
@@ -1148,7 +1148,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum sammeln",
+        farmlabel = "Drücke [E] zum sammeln",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
@@ -1215,7 +1215,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Abbauen",
+        farmlabel = "Drücke [E] zum Abbauen",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
@@ -1270,7 +1270,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Abbauen",
+        farmlabel = "Drücke [E] zum Abbauen",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
@@ -1319,7 +1319,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Abbauen",
+        farmlabel = "Drücke [E] zum Abbauen",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
@@ -1368,7 +1368,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Abbauen",
+        farmlabel = "Drücke [E] zum Abbauen",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
@@ -1417,7 +1417,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum sammeln",
+        farmlabel = "Drücke [E] zum sammeln",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -1435,72 +1435,21 @@ Config.PropSpots = {
 }
 
 Config.ObjectSpots = {
-    --[[{
-        -- Blipname
-        showblip = true,
-        blipname = "Huhn",
-        blip = 130,
-        blipcolor = 7,
-        blipscale = 0.5,
-        -- show radius on the map while in range
-        showradius = true,
-        -- Coords
-        pos = vector3(2301.4819, 4942.2305, 41.4082),
-        radius = 15.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
-
-        -- Prop
-        -- This doenst work with every prop, i dont know why.
-        obj = {
-            models = { 'A_C_Hen' },
-            interactRadius = 5.0
-        },
-        cooldown = 5000, -- in Miniliseconds
-        -- Animation
-        anim = {
-            animDict = "random@mugging4",
-            anim = "struggle_loop_b_thief",
-            flags = 49,
-            task = nil,
-        },
-        -- Job
-        job = nil,
-        joblabel = nil,
-        rang = nil,
-        --
-        farmlabel = "Press ~INPUT_CONTEXT~ to start the process",
-        -- Items
-        requireditem = nil,
-        farmtime = 5000,
-        barlabel = "Example Barlabel",
-        items = {
-            {
-                id = 1,
-                item = "bread",
-                minamount = 1,
-                maxamount = 10,
-            },
-            {
-                id = 1,
-                item = "water",
-                minamount = 1,
-                maxamount = 10,
-            },
-        },
-    },]]
+    
 }
 Config.MarkerSpots = {
-    --[[{
-        -- Blipname
+    {
+        -- Huhn
         showblip = true,
         blipname = "Feld",
         blip = 468,
         blipcolor = 25,
         blipscale = 0.5,
         -- show radius on the map while in range
-        showradius = false,
+        showradius = true,
         -- Coords
         pos = vector3(2300.8425, 4941.9492, 41.42),
-        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+        radius = 5.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
 
         -- Marker
         markertype = 1,
@@ -1509,10 +1458,10 @@ Config.MarkerSpots = {
             blue = 255,
             green = 255,
         },
-        static = true,
-        cooldown = 20000, -- in Miniliseconds
-        markersize = 2.0, -- dont forget there .0 here aswell :)
-        showmarkerdistance = 1,
+        static = false,
+        cooldown = 5000, -- in Miniliseconds
+        markersize = 1.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 0.5,
         -- Animation
         anim = {
             animDict = "amb@world_human_gardener_plant@male@base",
@@ -1525,10 +1474,10 @@ Config.MarkerSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ um zu starten",
+        farmlabel = "Drücke [E] um zu starten",
         -- Items
         requireditem = "schlachtermesser",
-        farmtime = 10000,
+        farmtime = 5000,
         barlabel = "Huhn schlachten",
         items = {
             {
@@ -1538,7 +1487,59 @@ Config.MarkerSpots = {
                 maxamount = 3,
             },
         },
-    },]]
+    },
+
+    {
+        -- Kuh
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(2266.2200, 4893.2393, 40.9042),
+        radius = 5.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = 1,
+        markercolor = {
+            red = 255,
+            blue = 255,
+            green = 255,
+        },
+        static = false,
+        cooldown = 5000, -- in Miniliseconds
+        markersize = 1.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 0.5,
+        -- Animation
+        anim = {
+            animDict = "amb@world_human_gardener_plant@male@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu starten",
+        -- Items
+        requireditem = "schlachtermesser",
+        farmtime = 5000,
+        barlabel = "Kuh schlachten",
+        items = {
+            {
+                id = 1,
+                item = "filet",
+                minamount = 2,
+                maxamount = 5,
+            },
+        },
+    },
+
 
     {
         -- Apfel
@@ -1576,7 +1577,7 @@ Config.MarkerSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Pflücken",
+        farmlabel = "Drücke [E] zum Pflücken",
         -- Items
         requireditem = "schere",
         farmtime = 5000,
@@ -1627,7 +1628,7 @@ Config.MarkerSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ zum Pflücken",
+        farmlabel = "Drücke [E] zum Pflücken",
         -- Items
         requireditem = "schere",
         farmtime = 5000,
@@ -1677,7 +1678,7 @@ Config.MarkerSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ um Pumpe zu starten",
+        farmlabel = "Drücke [E] um Pumpe zu starten",
         -- Items
         requireditem = "rohoel_license",
         farmtime = 12500,
@@ -1692,107 +1693,6 @@ Config.MarkerSpots = {
         },
     },]]
 
-    --[[{
-        -- Blipname
-        showblip = true,
-        blipname = "Safrol",
-        blip = 655,
-        blipcolor = 25,
-        blipscale = 0.5,
-        -- show radius on the map while in range
-        showradius = false,
-        -- Coords
-        pos = vector3(143.4672, 6329.1289, 31.4721),
-        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
-
-        -- Marker
-        markertype = 1,
-        markercolor = {
-            red = 255,
-            blue = 255,
-            green = 255,
-        },
-        static = true,
-        cooldown = 1000, -- in Miniliseconds
-        markersize = 2.0, -- dont forget there .0 here aswell :)
-        showmarkerdistance = 1,
-        -- Animation
-        anim = {
-            animDict = "amb@prop_human_bum_bin@base",
-            anim = "base",
-            flags = 49,
-            task = nil,
-        },
-        -- Job
-        job = nil,
-        joblabel = nil,
-        rang = 0,
-        --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ um zu starten",
-        -- Items
-        --requireditem = "schere",
-        farmtime = 15000,
-        barlabel = "Safrol pumpen",
-        items = {
-            {
-                id = 1,
-                item = "safrol",
-                minamount = 1,
-                maxamount = 5,
-            },
-        },
-    },]]
-
-    --[[{
-        -- Blipname
-        showblip = true,
-        blipname = "Feld",
-        blip = 468,
-        blipcolor = 49,
-        blipscale = 0.5,
-        -- show radius on the map while in range
-        showradius = false,
-        -- Coords
-        pos = vector3(-40.82, 6194.75, 30.79),
-        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
-
-        -- Marker
-        markertype = 1,
-        markercolor = {
-            red = 255,
-            blue = 255,
-            green = 255,
-        },
-        static = true,
-        cooldown = 1000, -- in Miniliseconds
-        markersize = 2.0, -- dont forget there .0 here aswell :)
-        showmarkerdistance = 1,
-        -- Animation
-        anim = {
-            animDict = "amb@prop_human_bum_bin@base",
-            anim = "base",
-            flags = 49,
-            task = nil,
-        },
-        -- Job
-        job = nil,
-        joblabel = nil,
-        rang = 0,
-        --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ um zu starten",
-        -- Items
-        --requireditem = "schere",
-        farmtime = 13000,
-        barlabel = "Bromsäure pumpen",
-        items = {
-            {
-                id = 1,
-                item = "bromsaeure",
-                minamount = 1,
-                maxamount = 5,
-            },
-        },
-    },]]
     {
         -- Blipname
         showblip = true,
@@ -1829,7 +1729,7 @@ Config.MarkerSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ um zu starten",
+        farmlabel = "Drücke [E] um zu starten",
         -- Items
         -- requireditem = "schere",
         farmtime = 5000,
@@ -1879,7 +1779,7 @@ Config.MarkerSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke ~INPUT_CONTEXT~ um zu starten",
+        farmlabel = "Drücke [E] um zu starten",
         -- Items
         -- requireditem = "schere",
         farmtime = 5000,

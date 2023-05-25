@@ -72,7 +72,7 @@ function StartFarm()
       animationName = Activ.v.anim.anim,
     },
     DisableControls = {
-      Mouse = true,
+      Mouse = false,
       Player = true,
       Vehicle = true
     },

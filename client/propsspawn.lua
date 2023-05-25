@@ -69,7 +69,7 @@ CreateThread(function()
                 if v.nearbyObject and IsPedOnFoot(playerPed) and v.nearbyCanInteract == true then
                     Sleep = 0
                     if not IsPickingUp then
-                        lib.showTextUI('Drücke E zum sammeln', {
+                        lib.showTextUI(v.farmlabel , {
                             position = "top-center",
                             icon = 'hand',
 							iconColor = '#800080',
