@@ -1319,7 +1319,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Abbauen",
+        farmlabel = "Drücke [E] um abzubauen",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
@@ -1368,7 +1368,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Abbauen",
+        farmlabel = "Drücke [E] um abzubauen",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
@@ -1417,7 +1417,7 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum sammeln",
+        farmlabel = "Drücke [E] um zu sammeln",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
@@ -1484,10 +1484,62 @@ Config.MarkerSpots = {
                 id = 1,
                 item = "filet",
                 minamount = 1,
-                maxamount = 3,
+                maxamount = 5,
             },
         },
     },
+
+    {
+        -- Huhn-Eier
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(2308.5291, 4933.8555, 41.4150),
+        radius = 5.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = 1,
+        markercolor = {
+            red = 255,
+            blue = 255,
+            green = 255,
+        },
+        static = false,
+        cooldown = 5000, -- in Miniliseconds
+        markersize = 1.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 0.5,
+        -- Animation
+        anim = {
+            animDict = "amb@world_human_gardener_plant@male@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu sammeln",
+        -- Items
+        requireditem = "schlachtermesser",
+        farmtime = 5000,
+        barlabel = "Eier sammeln",
+        items = {
+            {
+                id = 1,
+                item = "eier",
+                minamount = 2,
+                maxamount = 10,
+            },
+        },
+    },
+
 
     {
         -- Kuh
@@ -1535,7 +1587,7 @@ Config.MarkerSpots = {
                 id = 1,
                 item = "filet",
                 minamount = 2,
-                maxamount = 5,
+                maxamount = 8,
             },
         },
     },
@@ -1642,57 +1694,7 @@ Config.MarkerSpots = {
             },
         },
     },
-    --[[{
-        -- Rohöl
-        showblip = true,
-        blipname = "Feld",
-        blip = 468,
-        blipcolor = 25,
-        blipscale = 0.5,
-        -- show radius on the map while in range
-        showradius = false,
-        -- Coords
-        pos = vector3(1205.3922, -2204.5718, 41.4233),
-        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
-
-        -- Marker
-        markertype = -1,
-        markercolor = {
-            red = 0,
-            blue = 0,
-            green = 0,
-        },
-        static = true,
-        cooldown = 5000, -- in Miniliseconds
-        markersize = 2.0, -- dont forget there .0 here aswell :)
-        showmarkerdistance = 1,
-        -- Animation
-        anim = {
-            animDict = "amb@prop_human_bum_bin@base",
-            anim = "base",
-            flags = 49,
-            task = nil,
-        },
-        -- Job
-        job = nil,
-        joblabel = nil,
-        rang = 0,
-        --
-        farmlabel = "Drücke [E] um Pumpe zu starten",
-        -- Items
-        requireditem = "rohoel_license",
-        farmtime = 12500,
-        barlabel = "Rohöl abpumpen",
-        items = {
-            {
-                id = 1,
-                item = "rohoel",
-                minamount = 1,
-                maxamount = 5,
-            },
-        },
-    },]]
-
+    
     {
         -- Blipname
         showblip = true,

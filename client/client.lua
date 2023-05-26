@@ -95,6 +95,12 @@ AddEventHandler('d-farming:notify', function(text, length, type)
 end)
 
 function Notify(text, length, type)
-  ESX.ShowNotification(text)
+  --ESX.ShowNotification(text)
+  exports.bulletin:Send({
+    message = text,
+    timeout = length,
+    theme = type,
+    position = 'bottomright'
+})
   -- TriggerEvent("d-notification", text, length, type)
 end
