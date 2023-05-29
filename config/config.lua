@@ -1459,7 +1459,7 @@ Config.MarkerSpots = {
             green = 255,
         },
         static = false,
-        cooldown = 5000, -- in Miniliseconds
+        --cooldown = 5000, -- in Miniliseconds
         markersize = 1.5, -- dont forget there .0 here aswell :)
         showmarkerdistance = 0.5,
         -- Animation
@@ -1503,15 +1503,15 @@ Config.MarkerSpots = {
         radius = 5.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
 
         -- Marker
-        markertype = 1,
+        markertype = 27,
         markercolor = {
             red = 255,
             blue = 255,
             green = 255,
         },
         static = false,
-        cooldown = 5000, -- in Miniliseconds
-        markersize = 1.5, -- dont forget there .0 here aswell :)
+        --cooldown = 5000, -- in Miniliseconds
+        markersize = 1.3, -- dont forget there .0 here aswell :)
         showmarkerdistance = 0.5,
         -- Animation
         anim = {
@@ -1527,7 +1527,7 @@ Config.MarkerSpots = {
         --
         farmlabel = "Drücke [E] um zu sammeln",
         -- Items
-        requireditem = "schlachtermesser",
+        --requireditem = "schlachtermesser",
         farmtime = 5000,
         barlabel = "Eier sammeln",
         items = {
