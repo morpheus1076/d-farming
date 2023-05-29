@@ -1152,33 +1152,21 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
-        farmtime = 3200,
+        farmtime = 20000,
         barlabel = "Sammeln",
         items = {
             {
                 id = 1,
                 item = "stein",
                 minamount = 1,
-                maxamount = 5,
+                maxamount = 10,
             },
             {
                 id = 2,
-                item = "eisenerz",
-                minamount = 1,
-                maxamount = 5,
-            },
-            {
-                id = 3,
-                item = "kupfererz",
-                minamount = 1,
-                maxamount = 5,
-            },
-            {
-                id = 4,
-                item = "golderz",
-                minamount = 1,
-                maxamount = 1,
-            },
+                item = "selteneerden",
+                minamount = 0,
+                maxamount = 0.5,
+            }
         },
     },
 	
