@@ -1164,9 +1164,33 @@ Config.PropSpots = {
             {
                 id = 2,
                 item = "selteneerden",
-                minamount = 0,
-                maxamount = 0.5,
-            }
+                minamount = 1,
+                maxamount = 1,
+            },
+            {
+                id = 3,
+                item = "stein",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 4,
+                item = "stein",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 5,
+                item = "stein",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 6,
+                item = "stein",
+                minamount = 1,
+                maxamount = 10,
+            },
         },
     },
 	
@@ -1207,26 +1231,56 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
-        farmtime = 3200,
+        farmtime = 20000,
         barlabel = "Abbauen",
         items = {
             {
                 id = 1,
                 item = "eisenerz",
-                minamount = 3,
-                maxamount = 15,
+                minamount = 1,
+                maxamount = 10,
             },
             {
                 id = 2,
-                item = "kupfererz",
-                minamount = 3,
-                maxamount = 15,
+                item = "eisenerz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 3,
+                item = "eisenerz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 4,
+                item = "eisenerz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 5,
+                item = "eisenerz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 6,
+                item = "eisenerz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 7,
+                item = "golderz",
+                minamount = 1,
+                maxamount = 1,
             }
-        },
+        },       
     },
 	
 	{
-        -- Erze(eisen) MINE 2
+        -- Erze MINE 2
         showblip = false,
         blipname = "Feld",
         blip = 468,
@@ -1262,20 +1316,62 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
-        farmtime = 3200,
+        farmtime = 20000,
         barlabel = "Abbauen",
         items = {
             {
                 id = 1,
-                item = "eisenerz",
-                minamount = 9,
-                maxamount = 20,
+                item = "kupfererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 2,
+                item = "kupfererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 3,
+                item = "kupfererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 4,
+                item = "kupfererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 5,
+                item = "kupfererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 6,
+                item = "kupfererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 7,
+                item = "kupfererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 8,
+                item = "golderz",
+                minamount = 1,
+                maxamount = 1,
             }
         },
     },
 	
 	{
-        -- Erze(gold) MINE 3
+        -- Erze MINE 3
         showblip = false,
         blipname = "Feld",
         blip = 468,
@@ -1311,20 +1407,56 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
-        farmtime = 4200,
+        farmtime = 20000,
         barlabel = "Abbauen",
         items = {
             {
                 id = 1,
-                item = "golderz",
-                minamount = 2,
-                maxamount = 8,
-            }
+                item = "bauxit",
+                minamount = 1,
+                maxamount = 1,
+            },
+            {
+                id = 2,
+                item = "blei",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 3,
+                item = "blei",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 4,
+                item = "blei",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 5,
+                item = "blei",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 6,
+                item = "blei",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 7,
+                item = "blei",
+                minamount = 1,
+                maxamount = 10,
+            },
         },
     },
 	
 	{
-        -- Erze(kupfer) MINE 4
+        -- Erze MINE 4
         showblip = false,
         blipname = "Feld",
         blip = 468,
@@ -1360,14 +1492,135 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "presslufthammer",
-        farmtime = 4200,
+        farmtime = 20000,
         barlabel = "Abbauen",
         items = {
             {
                 id = 1,
-                item = "kupfererz",
-                minamount = 9,
-                maxamount = 20
+                item = "silbererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 2,
+                item = "silbererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 3,
+                item = "silbererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 4,
+                item = "silbererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 5,
+                item = "silbererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 6,
+                item = "silbererz",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 7,
+                item = "bauxit",
+                minamount = 1,
+                maxamount = 1,
+            }
+        },
+    },
+
+    {
+        -- Erze MINE 5
+        showblip = false,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(-535.1039, 1904.0216, 123.1319),
+        radius = 10.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Prop
+        prop = 'prop_rock_5_smash3',
+        -- How many props should spawn to mine
+        propamount = 5,
+        distancebetweenprops = 2.0,
+        delete = {
+            delay = 100,
+        },
+        -- Animation
+        anim = {
+            animDict = nil,
+            anim = nil,
+            flags = 49,
+            task = "WORLD_HUMAN_CONST_DRILL",
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um abzubauen",
+        -- Items
+        -- Set this to nil if you dont want to have an item
+        requireditem = "presslufthammer",
+        farmtime = 20000,
+        barlabel = "Abbauen",
+        items = {
+            {
+                id = 1,
+                item = "kohle",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 2,
+                item = "kohle",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 3,
+                item = "kohle",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 4,
+                item = "kohle",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 5,
+                item = "kohle",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 6,
+                item = "kohle",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 7,
+                item = "diamond",
+                minamount = 1,
+                maxamount = 1,
             }
         },
     },

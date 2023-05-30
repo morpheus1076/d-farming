@@ -100,7 +100,7 @@ function Notify(text, length, type)
     message = text,
     timeout = length,
     theme = type,
-    position = 'bottomright'
+    position = 'topright'
 })
   -- TriggerEvent("d-notification", text, length, type)
 end
