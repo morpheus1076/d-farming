@@ -40,7 +40,7 @@ CreateThread(function()
 
                 if v.markercoords then
 
-                    DrawMarker(27, v.markercoords.x, v.markercoords.y, v.markercoords.z + 0.1, 0, 0, 0, 0, 0, 0,
+                    DrawMarker(-1, v.markercoords.x, v.markercoords.y, v.markercoords.z + 0.1, 0, 0, 0, 0, 0, 0,
                         v.markersize,
                         v.markersize, 2.0, 0,
                         v.markercolor.red, v.markercolor.blue, v.markercolor.green, 0, 0, 2, 0, 0, 0, 0)

@@ -35,7 +35,7 @@ AddEventHandler('onResourceStop', function(resource)
     if resource == GetCurrentResourceName() then
         for k, v in pairs(Config.PropSpots) do
             for j, p in pairs(v.spawnedprops) do
-                ESX.Game.DeleteObject(p.obj)
+                DeleteObject(p.obj)
             end
         end
     end
@@ -155,7 +155,7 @@ function FinishedFrarming()
                 table.remove(Activ.v.spawnedprops, Activ.id)
                 Wait(Activ.v.delete.delay)
 
-                ESX.Game.DeleteObject(Activ.obj)
+                DeleteObject(Activ.obj)
             else
                 Activ.v.spawnedprops[Activ.id].canInteract = false
                 Wait(Activ.v.cooldown)

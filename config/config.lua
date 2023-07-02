@@ -13,7 +13,7 @@ Config.MarkerSpots = {
 
 Config.PropSpots = {
     {
-        -- afghan kush
+        -- afghanzweig
         showblip = true,
         blipname = "Feld",
         blip = 468,
@@ -31,7 +31,7 @@ Config.PropSpots = {
         propamount = 8,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -49,12 +49,12 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
-        barlabel = "Afghan Kush",
+        farmtime = 20000,
+        barlabel = "Afghan Kush Bud",
         items = {
             {
                 id = 1,
-                item = "afghan",
+                item = "afghanzweig",
                 minamount = 1,
                 maxamount = 10,
             },
@@ -79,7 +79,7 @@ Config.PropSpots = {
         propamount = 10,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -97,7 +97,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Engelstrompete",
         items = {
             {
@@ -127,7 +127,7 @@ Config.PropSpots = {
         propamount = 9,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -145,7 +145,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Mohn",
         items = {
             {
@@ -175,7 +175,7 @@ Config.PropSpots = {
         propamount = 5,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -193,7 +193,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = nil,
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Bromsäure",
         items = {
             {
@@ -223,7 +223,7 @@ Config.PropSpots = {
         propamount = 10,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -237,11 +237,11 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Ernten",
+        farmlabel = "Drücke [E] um zu ernten",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Kokablatt",
         items = {
             {
@@ -268,10 +268,10 @@ Config.PropSpots = {
         -- Prop
         prop = 'prop_plant_01a',
         -- How many props should spawn to mine
-        propamount = 6,
-        distancebetweenprops = 5.0,
+        propamount = 10,
+        distancebetweenprops = 7.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -289,7 +289,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Teeblätter",
         items = {
             {
@@ -316,10 +316,10 @@ Config.PropSpots = {
         -- Prop
         prop = 'h4_prop_bush_olndr_white_sml',
         -- How many props should spawn to mine
-        propamount = 30,
+        propamount = 10,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -333,11 +333,11 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Farmen",
+        farmlabel = "Drücke [E] um zu pflücken",
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Wolle pflücken",
         items = {
             {
@@ -364,10 +364,10 @@ Config.PropSpots = {
         -- Prop
         prop = 'prop_bush_lrg_01e_cr2',
         -- How many props should spawn to mine
-        propamount = 10,
+        propamount = 20,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -385,7 +385,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Nüsse",
         items = {
             {
@@ -415,7 +415,7 @@ Config.PropSpots = {
         propamount = 10,
         distancebetweenprops = 4.0,
         delete = {
-            delay = 50,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -433,7 +433,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 4000,
+        farmtime = 200000,
         barlabel = "Aramidfasern",
         items = {
             {
@@ -463,7 +463,7 @@ Config.PropSpots = {
         propamount = 15,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -481,13 +481,13 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Salat",
         items = {
             {
                 id = 1,
                 item = "salat",
-                minamount = 3,
+                minamount = 1,
                 maxamount = 10,
             },
         },
@@ -509,9 +509,9 @@ Config.PropSpots = {
         prop = 'prop_veg_crop_05',
         -- How many props should spawn to mine
         propamount = 10,
-        distancebetweenprops = 3.0,
+        distancebetweenprops = 4.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -529,7 +529,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 3000,
+        farmtime = 20000,
         barlabel = "Getreide",
         items = {
             {
@@ -559,7 +559,7 @@ Config.PropSpots = {
         propamount = 5,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -577,14 +577,14 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "axt",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Holz",
         items = {
             {
                 id = 1,
                 item = "holz",
                 minamount = 1,
-                maxamount = 5,
+                maxamount = 10,
             },
         },
     },
@@ -607,7 +607,7 @@ Config.PropSpots = {
         propamount = 10,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -621,12 +621,12 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Ernten",
+        farmlabel = "Drücke [E] um zu enrnten.",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 3000,
-        barlabel = "Tomate",
+        farmtime = 20000,
+        barlabel = "Tomaten ernten",
         items = {
             {
                 id = 1,
@@ -646,16 +646,16 @@ Config.PropSpots = {
         -- show radius on the map while in range
         showradius = true,
         -- Coords
-        pos = vector3(1958.3296, 4798.5015, 42.4846),
+        pos = vector3(1958.3296, 4798.5015, 42.0),
         radius = 15.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
 
         -- Prop
         prop = 'prop_plant_01b',
         -- How many props should spawn to mine
-        propamount = 10,
-        distancebetweenprops = 5.0,
+        propamount = 15,
+        distancebetweenprops = 4.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -669,12 +669,12 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Ernten",
+        farmlabel = "Drücke [E] um zu ernten.",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
-        barlabel = "Gewürze",
+        farmtime = 20000,
+        barlabel = "ernte Gewürze",
         items = {
             {
                 id = 1,
@@ -703,7 +703,7 @@ Config.PropSpots = {
         propamount = 10,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -717,12 +717,12 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Ernten",
+        farmlabel = "Drücke [E] um zu ernten.",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
-        barlabel = "Tabakblatt",
+        farmtime = 20000,
+        barlabel = "ernte Tabakblatt",
         items = {
             {
                 id = 1,
@@ -751,7 +751,7 @@ Config.PropSpots = {
         propamount = 10,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -765,12 +765,12 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Ernten",
+        farmlabel = "Drücke [E] um zu ernten.",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
-        barlabel = "Tabakblatt",
+        farmtime = 20000,
+        barlabel = "ernte Tabakblatt",
         items = {
             {
                 id = 1,
@@ -798,7 +798,7 @@ Config.PropSpots = {
         propamount = 10,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -812,12 +812,12 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Ernten",
+        farmlabel = "Drücke [E] um zu ernten.",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
-        barlabel = "Tabakblatt",
+        farmtime = 20000,
+        barlabel = "ernte Tabakblatt",
         items = {
             {
                 id = 1,
@@ -846,7 +846,7 @@ Config.PropSpots = {
         propamount = 8,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -860,12 +860,12 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Ernten",
+        farmlabel = "Drücke [E] um zu ernten.",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
-        barlabel = "Kaffeebohnen",
+        farmtime = 20000,
+        barlabel = "Ernte Kaffeebohnen",
         items = {
             {
                 id = 1,
@@ -886,15 +886,15 @@ Config.PropSpots = {
         showradius = true,
         -- Coords
         pos = vector3(2097.5662, 5095.5015, 44.7885),
-        radius = 20.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+        radius = 21.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
 
         -- Prop
         prop = 'prop_joshua_tree_01b',
         -- How many props should spawn to mine
-        propamount = 10,
+        propamount = 15,
         distancebetweenprops = 4.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -908,12 +908,12 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Ernten",
+        farmlabel = "Drücke [E] um zu ernten.",
         -- Items
         -- Set this to nil if you dont want to have an item
-        requireditem = "schere",
-        farmtime = 3200,
-        barlabel = "Kautschuk",
+        --requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Kautschuk ernten",
         items = {
             {
                 id = 1,
@@ -942,7 +942,7 @@ Config.PropSpots = {
         propamount = 10,
         distancebetweenprops = 5.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -960,7 +960,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Safrol",
         items = {
             {
@@ -990,7 +990,7 @@ Config.PropSpots = {
         propamount = 5,
         distancebetweenprops = 3.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -1008,7 +1008,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Methylamin",
         items = {
             {
@@ -1038,7 +1038,7 @@ Config.PropSpots = {
         propamount = 5,
         distancebetweenprops = 3.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -1056,7 +1056,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Bromsafrol",
         items = {
             {
@@ -1086,7 +1086,7 @@ Config.PropSpots = {
         propamount = 8,
         distancebetweenprops = 3.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -1104,7 +1104,7 @@ Config.PropSpots = {
         -- Items
         -- Set this to nil if you dont want to have an item
         --requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Rohöl",
         items = {
             {
@@ -1134,7 +1134,7 @@ Config.PropSpots = {
         propamount = 15,
         distancebetweenprops = 3.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -1213,7 +1213,7 @@ Config.PropSpots = {
         propamount = 5,
         distancebetweenprops = 2.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -1298,7 +1298,7 @@ Config.PropSpots = {
         propamount = 5,
         distancebetweenprops = 2.0,
         delete = {
-            delay = 100,
+            delay = 2000,
         },
         -- Animation
         anim = {
@@ -1389,7 +1389,7 @@ Config.PropSpots = {
         propamount = 5,
         distancebetweenprops = 2.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -1474,7 +1474,7 @@ Config.PropSpots = {
         propamount = 5,
         distancebetweenprops = 2.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -1559,7 +1559,7 @@ Config.PropSpots = {
         propamount = 5,
         distancebetweenprops = 2.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -1641,10 +1641,10 @@ Config.PropSpots = {
         -- Prop
         prop = 'prop_bush_neat_05',
         -- How many props should spawn to mine
-        propamount = 8,
-        distancebetweenprops = 3.0,
+        propamount = 10,
+        distancebetweenprops = 4.0,
         delete = {
-            delay = 100,
+            delay = 200,
         },
         -- Animation
         anim = {
@@ -1658,17 +1658,17 @@ Config.PropSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] um zu sammeln",
+        farmlabel = "Drücke [E] um zu pflücken",
         -- Items
         -- Set this to nil if you dont want to have an item
         requireditem = "schere",
-        farmtime = 5000,
-        barlabel = "Pflücken",
+        farmtime = 20000,
+        barlabel = "Indigo pflücken",
         items = {
             {
                 id = 1,
                 item = "indigo",
-                minamount = 3,
+                minamount = 1,
                 maxamount = 10,
             }
         },
@@ -1680,7 +1680,7 @@ Config.ObjectSpots = {
 }
 Config.MarkerSpots = {
     {
-        -- Huhn
+        -- Huhn-Filet
         showblip = true,
         blipname = "Feld",
         blip = 468,
@@ -1718,14 +1718,14 @@ Config.MarkerSpots = {
         farmlabel = "Drücke [E] um zu starten",
         -- Items
         requireditem = "schlachtermesser",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Huhn schlachten",
         items = {
             {
                 id = 1,
                 item = "filet",
                 minamount = 1,
-                maxamount = 5,
+                maxamount = 10,
             },
         },
     },
@@ -1769,18 +1769,17 @@ Config.MarkerSpots = {
         farmlabel = "Drücke [E] um zu sammeln",
         -- Items
         --requireditem = "schlachtermesser",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Eier sammeln",
         items = {
             {
                 id = 1,
                 item = "eier",
-                minamount = 2,
+                minamount = 1,
                 maxamount = 10,
             },
         },
     },
-
 
     {
         -- Kuh
@@ -1803,7 +1802,7 @@ Config.MarkerSpots = {
             green = 255,
         },
         static = false,
-        cooldown = 5000, -- in Miniliseconds
+        cooldown = 3000, -- in Miniliseconds
         markersize = 1.5, -- dont forget there .0 here aswell :)
         showmarkerdistance = 0.5,
         -- Animation
@@ -1818,21 +1817,113 @@ Config.MarkerSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] um zu starten",
+        farmlabel = "Drücke [E] um zu zerlegen.",
         -- Items
         requireditem = "schlachtermesser",
-        farmtime = 5000,
-        barlabel = "Kuh schlachten",
+        farmtime = 20000,
+        barlabel = "Kuh zerlegen.",
         items = {
             {
                 id = 1,
-                item = "filet",
-                minamount = 2,
-                maxamount = 8,
+                item = "rinderfilet",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 2,
+                item = "rinderfilet",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 3,
+                item = "rinderfilet",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 4,
+                item = "rinderfilet",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 5,
+                item = "rinderfilet",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 6,
+                item = "rinderfilet",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 7,
+                item = "rinderfilet",
+                minamount = 1,
+                maxamount = 10,
+            },
+            {
+                id = 8,
+                item = "angus",
+                minamount = 1,
+                maxamount = 1,
             },
         },
     },
 
+    {
+        -- Kuh Milch
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(2244.6228, 4872.0293, 40.8289),
+        radius = 5.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = 1,
+        markercolor = {
+            red = 255,
+            blue = 255,
+            green = 255,
+        },
+        static = false,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 1.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 0.5,
+        -- Animation
+        anim = {
+            animDict = "amb@world_human_gardener_plant@male@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu melken.",
+        -- Items
+        --requireditem = "schlachtermesser",
+        farmtime = 20000,
+        barlabel = "Kuh melken.",
+        items = {
+            {
+                id = 1,
+                item = "milch",
+                minamount = 1,
+                maxamount = 10,
+            }
+        },
+    },
 
     {
         -- Apfel
@@ -1855,7 +1946,7 @@ Config.MarkerSpots = {
             green = 32,
         },
         static = true,
-        cooldown = 2000, -- in Miniliseconds
+        cooldown = 4000, -- in Miniliseconds
         markersize = 4.0, -- dont forget there .0 here aswell :)
         showmarkerdistance = 1,
         -- Animation
@@ -1870,17 +1961,17 @@ Config.MarkerSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Pflücken",
+        farmlabel = "Drücke [E] um zu pflücken.",
         -- Items
         requireditem = "schere",
-        farmtime = 5000,
-        barlabel = "Apfel pflücken",
+        farmtime = 20000,
+        barlabel = "Äpfel pflücken",
         items = {
             {
                 id = 1,
                 item = "apfel",
                 minamount = 1,
-                maxamount = 7,
+                maxamount = 10,
             },
         },
     },
@@ -1906,7 +1997,7 @@ Config.MarkerSpots = {
             green = 32,
         },
         static = true,
-        cooldown = 2000, -- in Miniliseconds
+        cooldown = 4000, -- in Miniliseconds
         markersize = 4.0, -- dont forget there .0 here aswell :)
         showmarkerdistance = 1,
         -- Animation
@@ -1921,10 +2012,10 @@ Config.MarkerSpots = {
         joblabel = nil,
         rang = 0,
         --
-        farmlabel = "Drücke [E] zum Pflücken",
+        farmlabel = "Drücke [E] um zu pflücken.",
         -- Items
         requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Apfel pflücken",
         items = {
             {
@@ -1935,9 +2026,315 @@ Config.MarkerSpots = {
             },
         },
     },
+
+    {
+        -- Zitronen Eins
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = false,
+        -- Coords
+        pos = vector3(2117.2241, 4842.4512, 41.5828),
+        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = 27,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 4000, -- in Miniliseconds
+        markersize = 4.0, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_movie_bulb@idle_a",
+            anim = "idle_a",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu pflücken.",
+        -- Items
+        requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Zitronen pflücken",
+        items = {
+            {
+                id = 1,
+                item = "zitrone",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Zitronen Zwei
+        showblip = false,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = false,
+        -- Coords
+        pos = vector3(2121.9897, 4861.3774, 41.1033),
+        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = 27,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 4000, -- in Miniliseconds
+        markersize = 4.0, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_movie_bulb@idle_a",
+            anim = "idle_a",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu pflücken.",
+        -- Items
+        requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Zitronen pflücken",
+        items = {
+            {
+                id = 1,
+                item = "zitrone",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Zitronen Drei
+        showblip = false,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = false,
+        -- Coords
+        pos = vector3(2098.6355, 4841.8198, 41.6541),
+        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = 27,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 4000, -- in Miniliseconds
+        markersize = 4.0, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_movie_bulb@idle_a",
+            anim = "idle_a",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu pflücken.",
+        -- Items
+        requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Zitronen pflücken",
+        items = {
+            {
+                id = 1,
+                item = "zitrone",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Zitronen Vier
+        showblip = false,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = false,
+        -- Coords
+        pos = vector3(2098.6355, 4841.8198, 41.6541),
+        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = 27,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 4000, -- in Miniliseconds
+        markersize = 4.0, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_movie_bulb@idle_a",
+            anim = "idle_a",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu pflücken.",
+        -- Items
+        requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Zitronen pflücken",
+        items = {
+            {
+                id = 1,
+                item = "zitrone",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Orange Eins
+        showblip = false,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = false,
+        -- Coords
+        pos = vector3(2366.8010, 4715.4531, 34.3139),
+        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = 27,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 4000, -- in Miniliseconds
+        markersize = 4.0, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_movie_bulb@idle_a",
+            anim = "idle_a",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu pflücken.",
+        -- Items
+        requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Orangen pflücken",
+        items = {
+            {
+                id = 1,
+                item = "orange",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Orange Zwei
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 25,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = false,
+        -- Coords
+        pos = vector3(2364.9761, 4729.1558, 34.1758),
+        radius = 3.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = 27,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 4000, -- in Miniliseconds
+        markersize = 4.0, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_movie_bulb@idle_a",
+            anim = "idle_a",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu pflücken.",
+        -- Items
+        requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Orangen pflücken",
+        items = {
+            {
+                id = 1,
+                item = "orange",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
     
     {
-        -- Blipname
+        -- Projektiele
         showblip = true,
         blipname = "Feld",
         blip = 468,
@@ -1975,7 +2372,7 @@ Config.MarkerSpots = {
         farmlabel = "Drücke [E] um zu starten",
         -- Items
         -- requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Projektile sammeln",
         items = {
             {
@@ -1986,12 +2383,13 @@ Config.MarkerSpots = {
             },
         },
     },
+
     {
         -- Blipname
         showblip = true,
         blipname = "Feld",
         blip = 468,
-        blipcolor = 25,
+        blipcolor = 1,
         blipscale = 0.5,
         -- show radius on the map while in range
         showradius = false,
@@ -2025,7 +2423,7 @@ Config.MarkerSpots = {
         farmlabel = "Drücke [E] um zu starten",
         -- Items
         -- requireditem = "schere",
-        farmtime = 5000,
+        farmtime = 20000,
         barlabel = "Hülsen sammeln",
         items = {
             {
@@ -2035,5 +2433,462 @@ Config.MarkerSpots = {
                 maxamount = 10,
             },
         },
-    }
+    },
+    {
+        -- Afghanzeig 01
+        showblip = false,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 1,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = false,
+        -- Coords
+        pos = vector3(2228.8562, 5576.7456, 53.9094),
+        radius = 5.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = -1,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 5.0, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_bum_bin@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu ernten",
+        -- Items
+        -- requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Bud ernten",
+        items = {
+            {
+                id = 1,
+                item = "afghanzweig",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+    {
+        -- Afghanzeig Cayo 01
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 1,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(5379.2866, -5257.7412, 34.5095),
+        radius = 30.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = -1,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 30.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_bum_bin@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu ernten",
+        -- Items
+        -- requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Bud ernten",
+        items = {
+            {
+                id = 1,
+                item = "afghanzweig",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Afghanzeig Cayo 02
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 1,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(5351.8550, -5323.1377, 37.7870),
+        radius = 30.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = -1,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 30.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_bum_bin@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu ernten",
+        -- Items
+        -- requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Bud ernten",
+        items = {
+            {
+                id = 1,
+                item = "afghanzweig",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Afghanzeig Cayo 02
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 1,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(5208.0200, -5166.8584, 11.5775),
+        radius = 18.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = -1,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 18.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_bum_bin@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu ernten",
+        -- Items
+        -- requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Bud ernten",
+        items = {
+            {
+                id = 1,
+                item = "afghanzweig",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Kokablätter Cayo 01
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 1,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(5310.8682, -5289.4434, 34.0181),
+        radius = 19.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = -1,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 19.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_bum_bin@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu ernten",
+        -- Items
+        -- requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Blätter ernten",
+        items = {
+            {
+                id = 1,
+                item = "kokablatt",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Kokablätter Cayo 02
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 1,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(5290.7334, -5242.5371, 31.4837),
+        radius = 19.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = -1,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 19.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_bum_bin@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu ernten",
+        -- Items
+        -- requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Blätter ernten",
+        items = {
+            {
+                id = 1,
+                item = "kokablatt",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Kokablätter Cayo 03
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 1,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(5316.5420, -5213.6714, 32.0308),
+        radius = 19.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = -1,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 19.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_bum_bin@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu ernten",
+        -- Items
+        -- requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Blätter ernten",
+        items = {
+            {
+                id = 1,
+                item = "kokablatt",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Kokablätter Cayo 04
+        showblip = true,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 1,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = true,
+        -- Coords
+        pos = vector3(5352.9272, -5184.2837, 29.5132),
+        radius = 19.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = -1,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 19.5, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_bum_bin@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu ernten",
+        -- Items
+        -- requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Blätter ernten",
+        items = {
+            {
+                id = 1,
+                item = "kokablatt",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
+
+    {
+        -- Afghanzeig 01
+        showblip = false,
+        blipname = "Feld",
+        blip = 468,
+        blipcolor = 1,
+        blipscale = 0.5,
+        -- show radius on the map while in range
+        showradius = false,
+        -- Coords
+        pos = vector3(2228.8562, 5576.7456, 53.9094),
+        radius = 5.0, -- Radius where you can mine / props spawn .  Dont forget the .0 after the number
+
+        -- Marker
+        markertype = -1,
+        markercolor = {
+            red = 160,
+            blue = 240,
+            green = 32,
+        },
+        static = true,
+        cooldown = 3000, -- in Miniliseconds
+        markersize = 5.0, -- dont forget there .0 here aswell :)
+        showmarkerdistance = 1,
+        -- Animation
+        anim = {
+            animDict = "amb@prop_human_bum_bin@base",
+            anim = "base",
+            flags = 49,
+            task = nil,
+        },
+        -- Job
+        job = nil,
+        joblabel = nil,
+        rang = 0,
+        --
+        farmlabel = "Drücke [E] um zu ernten",
+        -- Items
+        -- requireditem = "schere",
+        farmtime = 20000,
+        barlabel = "Bud ernten",
+        items = {
+            {
+                id = 1,
+                item = "afghanzweig",
+                minamount = 1,
+                maxamount = 10,
+            },
+        },
+    },
 }
